@@ -1,0 +1,33 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-size: 400%;
+    font-family: monospace;
+    background-color: rgb(210, 214, 252);
+}
+
+.centered-text{
+    text-align: center;
+}
+
+.searchbar{
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: monospace;
+    width: 60% !important;
+    background-color: rgb(210, 214, 252);
+    border-style: solid;
+    border-radius: 500px;
+    border-width: 1px;
+    outline: none;
+    text-align: center;
+}
+
+.searchbar:focus{
+    border-width: 2px;
+}
+
+.submitBtn{
+    display: none !important;
+}
