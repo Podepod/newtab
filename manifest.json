@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "newtab",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "a minimalistic newtab page",
     "author": "Podepod",
     "offline_enabled": true,
@@ -11,6 +11,7 @@
         "128": "icon128.png"
     },
     "chrome_url_overrides": {
-        "newtab": "chromeExtensionHomePage.html"
+        "newtab": "chromeExtensionHomePage.html",
+        "homepage": "chromeExtensionHomePage.html"
     }
 }
