@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="titleContent" content="._.">
-    <title></title>
+    <meta name="linkjes" content="row">
+    <title>newtab</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="centered-text">
-        <h1 id="pageTitle"></h1>
+        <a href="linkjes.html"><h1 id="pageTitle"></h1></a>
         <form action="https://www.google.com/search" method="get">
             <input type="hidden" name="sourceid" value="chrome">
             <input type="hidden" name="ie" value="UTF-8">
@@ -20,6 +21,9 @@
             <input class="searchbar" type="search" name="q" placeholder="Search StackOverflow..."  autocomplete="off">
             <input class="submitBtn" type="submit">
         </form>
+        <br>
+        <div id="linkBarHolder">
+        </div>
     </div>
     <script type="text/javascript" src="functions.js"></script>
 </body>

@@ -1,0 +1,32 @@
+[
+    {
+        "letter": "F",
+        "link": "https://facebook.com",
+        "title": "Feestboek"
+    },
+    {
+        "letter": "M",
+        "link": "https://messenger.com",
+        "title": "Messenger"
+    },
+    {
+        "letter": "G",
+        "link": "https://mail.google.com/mail/",
+        "title": "Gmail"
+    },
+    {
+        "letter": "Y",
+        "link": "https://youtube.com",
+        "title": "JoeToep"
+    },
+    {
+        "letter": "S",
+        "link": "https://stackoverflow.com",
+        "title": "🥞 Over-Flow"
+    },
+    {
+        "letter": "K",
+        "link": "https://keybr.com",
+        "title": "🗝 go BRRRRR"
+    }
+]
