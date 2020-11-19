@@ -1,9 +1,10 @@
 {
     "manifest_version": 2,
     "name": "newtab",
-    "version": "1.2.0",
-    "description": "a minimalistic newtab page, more info on https://github.com/Podepod/newtab#readme",
+    "version": "1.2.1",
+    "description": "a minimalistic newtab page",
     "author": "Podepod",
+    "homepage_url": "https://github.com/Podepod/newtab#readme",
     "offline_enabled": true,
     "icons": {
         "16": "icon16.png",
