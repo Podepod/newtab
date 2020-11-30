@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "newtab-local-search",
+			"path": "..\\newtab-local-search"
+		}
+	],
+	"settings": {}
+}

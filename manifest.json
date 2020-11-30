@@ -1,7 +1,7 @@
 {
     "manifest_version": 2,
     "name": "newtab",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "a minimalistic newtab page",
     "author": "Podepod",
     "homepage_url": "https://github.com/Podepod/newtab#readme",
@@ -13,5 +13,11 @@
     },
     "chrome_url_overrides": {
         "newtab": "chromeExtensionHomePage.html"
-    }
+    },
+    "browser_action": {
+        "default_icon": "icon16.png"
+    },
+    "permissions": [
+        "http://10.30.20.187:4005/*"
+    ]
 }

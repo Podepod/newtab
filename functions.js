@@ -20,6 +20,8 @@ window.onload = async function(){
 
         eenRijLinkjes(config.linkjes.links_per_row, linkjes);
     }
+
+    ping();
 }
 
 async function getData(file){
@@ -103,3 +105,22 @@ function eenRijLinkjes(nbrLinks, linkList){
         i += 1;
     }
 }
+
+function ping(){
+    $.ajax({
+       url: 'http://10.30.20.178:3200/',
+       /*header: {
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': 'http://10.30.20.*'        
+       },*/
+       type: 'HEAD',
+       success: function(result){
+          //alert('reply');
+          console.log('reply');
+       },     
+       error: function(result){
+           //alert('timeout/error');
+           console.log('timeout/error');
+       }
+    });
+ }

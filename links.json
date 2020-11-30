@@ -7,17 +7,32 @@
     {
         "letter": "M",
         "link": "https://messenger.com",
-        "title": "Messenger"
+        "title": "💬"
     },
     {
         "letter": "G",
         "link": "https://mail.google.com/mail/",
-        "title": "Gmail"
+        "title": "📭"
     },
     {
         "letter": "Y",
         "link": "https://youtube.com",
         "title": "JoeToep"
+    },
+    {
+        "letter": "D",
+        "link": "https://drive.google.com/drive",
+        "title": "🚗"
+    },
+    {
+        "letter": "C",
+        "link": "https://thomasmore.instructure.com",
+        "title": "🎨"
+    },
+    {
+        "letter": "T",
+        "link": "https://twitch.tv",
+        "title": "📺"
     },
     {
         "letter": "S",
